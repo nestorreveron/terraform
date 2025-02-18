@@ -17,4 +17,9 @@
  resource "azurerm_resource_group" "nestorterraform" {
    name     = "nestorterraform"
    location = "eastus2"
+
+   tags = {
+      cost_center = "contoso research"
+   }
+
  }
